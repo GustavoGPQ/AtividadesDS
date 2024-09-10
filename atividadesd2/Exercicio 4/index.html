@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Moedas</h1>
+        <form>
+            <label for="valorBRL">Valor em Reais (BRL):</label>
+            <input type="text" id="valorBRL" name="valorBRL" placeholder="Insira o valor em BRL">
+
+            <label for="moeda">Escolha a moeda:</label>
+            <select id="moeda" name="moeda">
+                <option value="usd">Dólar (USD)</option>
+                <option value="eur">Euro (EUR)</option>
+                <option value="jpy">Iene Japonês (JPY)</option>
+                <option value="chf">Franco Suíço (CHF)</option>
+                <option value="aud">Dólar Australiano (AUD)</option>
+            </select>
+
+            <button type="button">Converter</button>
+
+            <label for="resultado">Valor Convertido:</label>
+            <input type="text" id="resultado" name="resultado" placeholder="Resultado" disabled>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

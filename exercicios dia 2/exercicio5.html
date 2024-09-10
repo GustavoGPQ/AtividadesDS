@@ -1,0 +1,9 @@
+<script>
+    const cigPorDia = Number(prompt("Quantos cigarros você fuma por dia?'"));
+    const anosFumando = Number(prompt("Quantos anos você fuma?"));
+    const totalDias = anosFumando * 365;
+    const totalCigarros = cigPorDia * totalDias;
+    const perdaMin = totalCigarros * 10;
+    const perdaDias = perdaMin / 1440;
+    alert(`Como fumante, você perdeu cerca de ${perdaDias.toFixed(0)} dias de vida. Que tal investir em hábitos mais saudáveis e recuperar esses preciosos momentos?`);
+</script>

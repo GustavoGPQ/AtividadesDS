@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de medias</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Medias</h1>
+        <form>
+            <label for="nota1">Nota 1:</label>
+            <input type="text" id="nota1" name="nota1" placeholder="Insira a primeira nota">
+
+            <label for="nota2">Nota 2:</label>
+            <input type="text" id="nota2" name="nota2" placeholder="Insira a segunda nota">
+
+            <label for="nota3">Nota 3:</label>
+            <input type="text" id="nota3" name="nota3" placeholder="Insira a terceira nota">
+
+            <button type="button">Calcular Nota</button>
+
+            <div class="result-container">
+                <div>
+                    <label for="resultado">Média Final:</label>
+                    <input type="text" id="resultado" name="resultado" placeholder="Resultado" disabled>
+                </div>
+                <div>
+                    <label for="mensagem">Situação:</label>
+                    <input type="text" id="mensagem" name="mensagem" placeholder="Situação" disabled>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
