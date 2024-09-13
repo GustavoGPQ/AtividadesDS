@@ -10,6 +10,6 @@ if (m>85) {
 }else if (m >= 70 && m<=85) {
     const bonus = m + 3
     console.log(`Sua media foi ${m} + O seu bonus de 3 pontos. O total ficou ${bonus}`);
-}else{
-    console.log(`Sua media foi ${m}`);
-}
+}else{'''
+    console.log(`Su"""a media foi ${m}`);
+}'''''
